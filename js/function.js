@@ -1,7 +1,7 @@
 
 $( window ).resize(function() {
 $window = $(window);
-if( $window .width() ){
+if( $window .width() >768){
 	
 	$(window).scroll(function(){
 		var wScroll = $(this).scrollTop();
@@ -36,7 +36,7 @@ if( $window .width() ){
 
 $(document).ready(function(){
 $window = $(window);
-if( $window.width() ){
+if( $window.width() >768){
 // Cache the Window object
 
 	$(window).scroll(function(){

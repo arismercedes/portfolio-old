@@ -612,9 +612,7 @@ background-attachment: fixed;
 	background-size: contain;
 	min-width: 0px;
 	width: 100%;
-	height: 100%;
-	margin-bottom: 0px;
-	
+	height: 100%;	
 }
 .thumb-tittle {
 	font-family: 'Open Sans', sans-serif;
@@ -676,10 +674,10 @@ overflow: hidden;
 }
 .row-services .col {
 	text-align: center;
-	padding: 10px;
 	position: relative;
 	display: inline-block;
 	top: 0px;
+	padding: 5px;
 }
 .row-services img {
 	top: 0%;
@@ -977,7 +975,6 @@ textarea {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: 1900px;
-	margin: ;
 	}
 	.slogan {
 	width: 100%;
@@ -1241,27 +1238,35 @@ textarea {
 		width: 50%;
 	}
 	.about-parallax {
-	display: block;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+	height: 350px;
 	width: 100%;
-}
+	background-attachment: scroll;
+	}
 	.parallax-image {
 	background-image: url(../img/desk-vector-01.svg);
-	display: inline-block;
-	background-position: center center;
-	position: relative;
 	background-attachment: scroll;
-	background-repeat: no-repeat;
-	min-height: 100%;
-	min-width: 0px;
 	width: 100%;
 	height: 100%;
-	margin-bottom: 0px;	
-}
-}
+	text-align:center;
+	background-position: center center;
+	background-size: 95% auto;
 
+}
+}
+@media only screen and (max-device-width: 768px) and (orientation : landscape) {
+.shops, .back-buildings, .trees, .front-clouds, .middle-clouds, .far-buildings, .back-clouds {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 125%;	
+}
+.slogan {
+	width: 100%;
+	background-size: 70%;
+	top: -50%;
+}
+}
 @media only screen and (max-width: 520px) {
 .big-email {
 font-size: 24px;
@@ -1275,6 +1280,12 @@ background-size: 100% 200%;
 width: 35px;
 height: 75px;
 top: -30%;
+}
+.about-parallax {
+height: 300px;
+}
+.parallax-image {
+background-size: 95% auto;
 }
 }
 
