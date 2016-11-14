@@ -979,7 +979,8 @@ textarea {
 	.slogan {
 	width: 100%;
 	background-size: 90%;
-	background-position: center bottom;
+	background-position: center top;
+	top: 20%;
 	}
 	.content-wrapper {
 		width: 100%;
