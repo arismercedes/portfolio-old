@@ -1028,7 +1028,7 @@ textarea {
 	}
 	.logo-name-top {
 	font-family: 'Open Sans', sans-serif;
-	font-size: medium;
+	font-size: 15px;
 	text-transform: uppercase;
 	position: relative;
 	display: inline-block;
@@ -1037,7 +1037,7 @@ textarea {
 	float: left;
 	margin-top: auto;
 	margin-bottom: auto;
-	font-weight: 700;
+	font-weight: bold;
 	}
 	.icon-bar {
 		height: 3px;
