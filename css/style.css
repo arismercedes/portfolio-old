@@ -40,6 +40,11 @@ html {
     -webkit-animation-name: scroll;
           animation-name: scroll;
 }
+.last-name {
+	color: rgba(253,253,253,1.00);
+	font-weight: lighter;
+}
+
 @-webkit-keyframes scroll {
     0% {
         opacity: 1;
@@ -132,6 +137,7 @@ html {
 .top-bar {
 	display: none;
 	z-index: 999;
+	background-color: #0C0C0C;
 }
 .burger-nav {
 	display: none;
@@ -224,10 +230,8 @@ html {
 .side-bar {
 	width: 240px;
 	position: fixed;
-	background-color: #111113;
-	background-image: url(../img/logo%20pattern.svg);
-	background-repeat: repeat;
-	background-size: 40px 40px;
+	background-color: #0C0C0C;
+	background-size: 30px 32px;
 	-webkit-box-shadow: 8px 0px 30px -5px rgba(0,0,0,0.53);
 	box-shadow: 8px 0px 30px -5px rgba(0,0,0,0.53);
 	display: inline;
@@ -768,6 +772,7 @@ footer {
 	font-size: 15px;
 	clear: both;
 	color: #EB0028;
+	font-weight: bold;
 }
 .logo-name hover: {
 	text-decoration:none;
@@ -991,19 +996,18 @@ textarea {
 		float: left;
 	}
 	.top-bar {
-		position: fixed;
-		background-color: #111113;
-		background-image: url(../img/logo%20pattern.svg);
-		background-repeat: repeat;
-		background-size: 40px 40px;
-		-webkit-box-shadow: 0px 8px 30px -5px rgba(0,0,0,0.53);
-		box-shadow: 0px 8px 30px -5px rgba(0,0,0,0.53);
-		display: block;
-		height: 65px;
-		margin: 0;
-		width: 100%;
-		overflow-x: hidden;
-		overflow-y: hidden;
+	position: fixed;
+	background-color: #0C0C0C;
+	background-repeat: repeat;
+	background-size: 40px 40px;
+	-webkit-box-shadow: 0px 8px 30px -5px rgba(0,0,0,0.53);
+	box-shadow: 0px 8px 30px -5px rgba(0,0,0,0.53);
+	display: block;
+	height: 65px;
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
 	}
 	.logo-top {
 		z-index: 1000;
@@ -1018,16 +1022,17 @@ textarea {
 		top: -1px;
 	}
 	.logo-name-top {
-		font-family: 'Open Sans', sans-serif;
-		font-size: medium;
-		text-transform: uppercase;
-		position: relative;
-		display: inline-block;
-		text-align: center;
-		color: #EB0028;
-		float: left;
-		margin-top: auto;
-		margin-bottom: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	color: #EB0028;
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-weight: 700;
 	}
 	.icon-bar {
 		height: 3px;
@@ -1180,7 +1185,7 @@ textarea {
 
 
 	.fullscreen-menu {
-	background-color: rgba(17,17,19,1.00);
+	background-color: #0C0C0C;
 	position: fixed;
 	display: block;
 	z-index: 100;
